@@ -8,7 +8,7 @@
 #       command=/path/of/this/script/bluetooth-toggle.sh
 #       interval=once
 #       signal=10
-
+# Icon font is fontawesome 5
 
 sleep 1
 #check bluetooth status. Expected value is 'blocked'
