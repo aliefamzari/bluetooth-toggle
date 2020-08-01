@@ -40,6 +40,3 @@ fi
 
 #Send signal to i3blocks to refresh
 pkill -SIGRTMIN+10 i3blocks
-
-#[ $bstatus = "blocked" ] && bt_off || bt_start
-
