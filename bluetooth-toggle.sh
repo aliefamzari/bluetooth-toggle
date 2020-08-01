@@ -1,6 +1,6 @@
 #!/bin/bash
 sleep 1
-bstatus=$(rfkill |grep 'tpacpi_bluetooth_sw' |awk '{print $4}')
+bt_status=$(rfkill |grep 'tpacpi_bluetooth_sw' |awk '{print $4}')
 
 function bt_start {
 	sudo systemctl start bluetooth > /dev/null 2>&1
